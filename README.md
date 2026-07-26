@@ -1,5 +1,7 @@
 # InstaTranslate for Laravel
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=flat-square&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/janakkapadia)
+
 A lightweight Laravel package that leverages AI (via `laravel/ai`) to automatically translate language strings for your application. It replaces traditional translation management platforms by using AI to directly sync and translate missing keys in your `lang/` files.
 
 ## Features
@@ -200,3 +202,10 @@ public function boot(): void
 5. Missing keys are batched and sent to the AI model via `laravel/ai`.
 6. Glossary overrides are applied to the AI response.
 7. Translations are merged, sorted alphabetically, and saved.
+
+## Support
+
+If you find InstaTranslate helpful, consider supporting its ongoing development:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/janakkapadia)
+
